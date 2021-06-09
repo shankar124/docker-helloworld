@@ -42,7 +42,7 @@ COPY runner.sh /runner.sh
 RUN chmod +x /runner.sh
 
 # Expose ports
-EXPOSE 5002
+EXPOSE 5005
 
 ENTRYPOINT ["/runner.sh"]
 
